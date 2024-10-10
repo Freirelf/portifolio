@@ -97,7 +97,8 @@ const Hero = () => {
             </HeroCamera>
 
             <group>
-              <Elephant position={sizes.targetPosition} />
+              <ambientLight intensity={1} />
+              <Elephant position={sizes.elephantPosition} />
               {/* <Target position={sizes.targetPosition} /> */}
               <ReactLogo position={sizes.reactLogoPosition} />
               <Cube position={sizes.cubePosition} />
@@ -111,7 +112,7 @@ const Hero = () => {
       </div>
 
       <div className="absolute bottom-7 left-0 right-0 z-10 c-space">
-        <a href="#contact" className="w-fit">
+        <a href="#about" className="w-fit">
           <Button
             name="Let's work together"
             isBeam
