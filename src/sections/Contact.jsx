@@ -67,11 +67,11 @@ const Contact = () => {
   }
 
   return (
-    <section className="c-space my-20">
+    <section className="c-space my-20" id="contact">
       {alert.show && <Alert {...alert} />}
 
       <div className="relative min-h-screen flex items-center justify-center flex-col">
-        <img src="/assets/terminal.png" alt="terminal background" className="absolute inset-0 min-h-screen"/>
+        <img src="/assets/terminal.png" alt="terminal-bg" className="absolute h-full w-full inset-0 min-h-screen"/>
         <div className="contact-container">
           <h3 className="head-text">Vamos conversar</h3>
           <p className="text-lg text-white-600 mt-3">Quer você esteja procurando construir um novo site, melhorar sua plataforma existente ou dar vida a um projeto único, estou aqui para ajudar.</p>
