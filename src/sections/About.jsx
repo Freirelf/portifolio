@@ -23,8 +23,10 @@ const About = () => {
             <img src="assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">Olá, Eu sou o Lucas Freire</p>
-              <p className="grid-subtext"> Desenvolvedor Full Stack com foco em React e PHP.</p>
+              <p className="grid-headtext">Olá, Eu sou o Lucas Freire.</p>
+              <p className="grid-subtext">
+                Desenvolvedor Full Stack apaixonado por criar experiências digitais intuitivas. Domino React e PHP para construir aplicações web escaláveis e performáticas. Trabalhei em diversos projetos, otimizando a processos e aumentando a performance.
+              </p>
             </div>
           </div>
         </div>
@@ -34,7 +36,7 @@ const About = () => {
             <img src="assets/grid2.png" alt="grid-2" className="w-full sm:h-[276px] h-fit object-contain" />
             <div>
               <p className="grid-headtext">Tech Stack</p> 
-              <p className="grid-subtext"> I specialize inJavaScript/Typescript with a focus on React and PHP ecosystem.</p>
+              <p className="grid-subtext"> Sou especializado em diversas linguagens, frameworks e ferramentas que me permitem construir soluções robustas e escaláveis.</p>
             </div>
           </div>
         </div>
@@ -58,11 +60,11 @@ const About = () => {
 
             <div>
               <p className="grid-headtext">
-                I work remotely across most timezones.
+                Trabalho remotamente na maioria dos fusos horários.
               </p>
 
               <p className="grid-subtext">
-                I am based in Fortaleza, with remote work available.
+                Sou de Fortaleza, com disponibilidade de trabalho remoto.
               </p>
               <Button name="Entre em contato" isBeam containerClass="w-full mt-10" />
             </div>
@@ -75,11 +77,11 @@ const About = () => {
 
             <div>
               <p className="grid-headtext">
-                My passion for coding.
+                Minha paixão por codificação.
               </p>
 
               <p className="grid-subtext">
-                I love solving problems and building things through code. Coding isn't just my profession - it is my passion.
+                Adoro resolver problemas e construir coisas através de código. Codificar não é apenas minha profissão – é minha paixão.
               </p>
             </div>
           </div>
