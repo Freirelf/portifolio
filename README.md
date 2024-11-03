@@ -8,14 +8,14 @@
   <h3 align="center">Portfolio Lucas Freire </h3>
 </div>
 
-## 📋 <a name="table">Table of Contents</a>
+## 📋 <a name="table">Índice</a>
 
 1. 🤖 [Introdução](#introduction)
 2. ⚙️ [Tech Stack](#tech-stack)
 3. 🔋 [Features](#features)
 4. 🤸 [Quick Start](#quick-start)
 
-## <a name="introduction">🤖 Introduction</a>
+## <a name="introduction">🤖 Introdução</a>
 
 Construído com React.js para lidar com a interface do usuário, Three.js para renderizar elementos 3D e estilizado com TailwindCSS, o portfólio 3D Minimalistic é um projeto de site. O objetivo principal é demonstrar as habilidades do desenvolvedor de uma maneira única que crie um impacto duradouro.
 
