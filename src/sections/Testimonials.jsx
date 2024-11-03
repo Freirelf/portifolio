@@ -3,7 +3,7 @@ import { clientReviews } from "../constants"
 const Testimonials = () => {
   return (
     <section className="c-space my-20">
-      <h3 className="head-text">Hear from My Coworkers</h3>
+      <h3 className="head-text">Ouça meus colegas de trabalhos</h3>
 
       <div className="client-container">
         {clientReviews.map(({id, name, review, img, position}) => (

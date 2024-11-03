@@ -22,7 +22,7 @@ const Projects = () => {
 
   return (
     <section className="c-space my-20">
-      <p className="head-text "> My Work </p>
+      <p className="head-text " id="work"> My Work </p>
       
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-5 mt-12 w-full">
         <div className="flex flex-col gap-5 relative sm:p-10 py-10 px-5 shadow-2xl"> 
@@ -53,7 +53,7 @@ const Projects = () => {
             </div>
 
             <a href={currentProject.href} target="_blank" rel="noreferrer" className="flex items-center gap-2 cursor-pointer text-white-600">
-              <p>Check live site</p> 
+              <p>Ver site</p> 
               <img src="assets/arrow-up.png" alt="arrow" className="w-3 h-3" />
             </a>    
           </div>

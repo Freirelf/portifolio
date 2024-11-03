@@ -34,7 +34,7 @@ const Hero = () => {
         <p className="sm:text-3xl text-2xl font-medium text-white text-center font-generalsans">
           Heey! Eu sou o Lucas Freire<span className="waving-hand">👋</span>
         </p>
-        <p className="hero_tag text-gray_gradient ">
+        <p className="hero_tag text-gray_gradient " id="home">
           Construo produtos que inspiram
         </p>
       </div>
